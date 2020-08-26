@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-row *ngIf="authService.user != null">
+    <ion-col size="4">First Name:</ion-col>
+    <ion-col size="8">{{ this.authService.user.first_name != null ? this.authService.user.first_name : '-' }}</ion-col>
+
+    <ion-col size="4">Last Name:</ion-col>
+    <ion-col size="8">{{ this.authService.user.last_name != null ? this.authService.user.last_name : '-' }}</ion-col>
+
+    <ion-col size="4">Email:</ion-col>
+    <ion-col size="8">{{ this.authService.user.email != null ? this.authService.user.email : '-' }}</ion-col>
+
+    <ion-col size="12">
+      <ion-button expand="block" class="normal-button" style="--background: #e80d1b;" (click)="authService.logout()">
+        Logout
+      </ion-button>
+    </ion-col>
+
+  </ion-row>
+</ion-content>

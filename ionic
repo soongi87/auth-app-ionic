@@ -1,0 +1,85 @@
+Checking Java JDK and Android SDK versions
+ANDROID_SDK_ROOT=undefined (recommended setting)
+ANDROID_HOME=undefined (DEPRECATED)
+Using Android SDK: C:\Users\Teoh\AppData\Local\Android\sdk
+Subproject Path: CordovaLib
+Subproject Path: app
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :CordovaLib:preBuild UP-TO-DATE
+> Task :CordovaLib:preDebugBuild UP-TO-DATE
+> Task :CordovaLib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :CordovaLib:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :CordovaLib:compileDebugRenderscript UP-TO-DATE
+> Task :CordovaLib:generateDebugResValues UP-TO-DATE
+> Task :CordovaLib:generateDebugResources UP-TO-DATE
+> Task :CordovaLib:packageDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :CordovaLib:extractDeepLinksDebug UP-TO-DATE
+> Task :CordovaLib:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :CordovaLib:compileDebugLibraryResources UP-TO-DATE
+> Task :CordovaLib:parseDebugLocalResources UP-TO-DATE
+> Task :CordovaLib:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :CordovaLib:generateDebugBuildConfig UP-TO-DATE
+> Task :CordovaLib:javaPreCompileDebug UP-TO-DATE
+> Task :CordovaLib:compileDebugJavaWithJavac UP-TO-DATE
+> Task :CordovaLib:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:compileDebugSources UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :CordovaLib:mergeDebugShaders UP-TO-DATE
+> Task :CordovaLib:compileDebugShaders NO-SOURCE
+> Task :CordovaLib:generateDebugAssets UP-TO-DATE
+> Task :CordovaLib:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :CordovaLib:processDebugJavaRes NO-SOURCE
+> Task :CordovaLib:bundleLibResDebug NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :CordovaLib:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :CordovaLib:mergeDebugJniLibFolders UP-TO-DATE
+> Task :CordovaLib:mergeDebugNativeLibs UP-TO-DATE
+> Task :CordovaLib:stripDebugDebugSymbols NO-SOURCE
+> Task :CordovaLib:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:packageDebug UP-TO-DATE
+> Task :app:assembleDebug UP-TO-DATE
+> Task :app:cdvBuildDebug UP-TO-DATE
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1s
+40 actionable tasks: 40 up-to-date
+Built the following apk(s): 
+	C:\Users\Teoh\Documents\Project\login-app\platforms\android\app\build\outputs\apk\debug\app-debug.apk
+Checking Java JDK and Android SDK versions
+ANDROID_SDK_ROOT=C:\Users\Teoh\AppData\Local\Android\sdk (recommended setting)
+ANDROID_HOME=undefined (DEPRECATED)
+Using Android SDK: C:\Users\Teoh\AppData\Local\Android\sdk
+No target specified and no devices found, deploying to emulator
+No emulator specified, defaulting to Nexus_4_API_27
+Waiting for emulator to start...
+Terminate batch job (Y/N)? 

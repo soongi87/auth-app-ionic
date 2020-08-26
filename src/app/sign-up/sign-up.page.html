@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Sign Up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-sign-up ion-padding">
+  <form #loginForm="ngForm" class="form">
+    <ion-row>
+      <ion-col size="12">
+        <ion-list>
+          <ion-item>
+            <ion-input type="text" placeholder="First Name" name="customers_firstname" [(ngModel)]="authService.signUpFormData.first_name" required></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input type="text" placeholder="Last Name" name="customers_lastname" [(ngModel)]="authService.signUpFormData.last_name" required></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input type="email" email placeholder="Email" name="email" [(ngModel)]="authService.signUpFormData.email" required></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input type="password" placeholder="Password" name="password" [(ngModel)]="authService.signUpFormData.password" required></ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12">
+        <label *ngIf="authService.errorMessage!=''">
+          <span class="red">{{authService.errorMessage}}</span>
+        </label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="block" class="normal-button" style="--background: var(--primary);" [disabled]="!loginForm.form.valid" (click)="authService.signUp()">
+          Register
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
